@@ -26,6 +26,14 @@ export default function Footer() {
             <Github className="h-4 w-4" /> GitHub
           </a>
           <a
+            href={externalLinks.blogPost}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Blog post
+          </a>
+          <a
             href={externalLinks.developer}
             target="_blank"
             rel="noreferrer"

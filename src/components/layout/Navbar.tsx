@@ -53,6 +53,14 @@ export default function Navbar() {
           <a href="#results" className="hover:text-foreground transition-colors">
             Results
           </a>
+          <a
+            href={externalLinks.blogPost}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-foreground transition-colors"
+          >
+            Blog
+          </a>
         </nav>
         <Button variant="outlineGlow" size="sm" asChild>
           <a href={externalLinks.demo} target="_blank" rel="noreferrer">
